@@ -41,5 +41,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: npm run
+      - name: install vite
+        run: npm install tailwindcss @tailwindcss/vite
+      - name: Deploy Site
         run: npm run dev
