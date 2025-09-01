@@ -41,5 +41,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-- name: npm run
-  run: npm run dev
+      - name: npm run
+        run: npm run dev
